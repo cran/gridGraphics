@@ -1,0 +1,13 @@
+
+import("grid")
+
+export("grid.echo")
+
+# For test code in ./tests/
+export("plotdiffInit")
+export("plotdiff")
+export("plotdiffResult")
+
+S3method("grid.echo", "default")
+S3method("grid.echo", "recordedplot")
+S3method("grid.echo", "function")
