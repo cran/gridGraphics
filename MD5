@@ -1,4 +1,4 @@
-acfc44215ce7d1ac43b2f412cb91b7cf *DESCRIPTION
+07aef3f3052c34e89fa510ef653b46a3 *DESCRIPTION
 11eb90b92f53cb620425e532e1cdfaeb *NAMESPACE
 cc9163b8296eba1758f88db5f267e75d *R/abline.R
 cda81d05dd571a2b67d96a40fc678783 *R/arrows.R
@@ -19,7 +19,7 @@ c7c09663283fc99aa5088a187b77e8d5 *R/par.R
 d6b596d6929e0b5d12fa17bd722f76f5 *R/plot.new.R
 2890e6fd83016f6ecb18936300dc29f3 *R/plot.window.R
 8aaaea94bcece177df9763a0aa0215e6 *R/plotXY.R
-48114a9733245f528fa137d67605d3cc *R/plotdiff.R
+06b56e3d129e99549dd1e6e0e85a9253 *R/plotdiff.R
 face413cc567e0f60ae872ae92ba6885 *R/polygon.R
 18a264abc9131e95c722aa7df675cd90 *R/raster.R
 90ad85850daeb29ee980ad4df9b6387d *R/rect.R
@@ -29,6 +29,7 @@ fcc928eea54d63726995560531b9d0b4 *R/segments.R
 ca0a475cdb2cfac12a147b723716315d *R/title.R
 7a20f1336dec8a93948d836da0214964 *R/xspline.R
 0c9e9fb82dd83c800f058e0a7dd5c449 *README.md
+54216fcc66925ed13b5c4441199dd982 *inst/NEWS.Rd
 d6b3d783da7b60edb2ea7855d9f4292d *inst/test-scripts/test-abline.R
 a293a6478fecb2656b47ec4bddf43da6 *inst/test-scripts/test-arrows.R
 ce6e737df1ac01eaa121427624b90419 *inst/test-scripts/test-assocplot.R
@@ -92,7 +93,7 @@ c3c7fb970165ba67a9a59b4e5f71ae87 *inst/test-scripts/test-text.R
 ec3aa18ac3ed2cc820e86e9f3ad6a6c7 *inst/test-scripts/test-title.R
 4e0768227d0ad035eecb928daef601bb *inst/test-scripts/test-units.R
 ed0e3d4318b82c5fb715dfa86f582252 *inst/test-scripts/test-xspline.R
-1b0d41cd56852b403bbbea52e70a2ad3 *man/grid.echo.Rd
+9d8e202de617dd055e6914e73d0e8e0a *man/grid.echo.Rd
 ee32dc73c549b4abd012b385f48ec57a *man/plotdiff.Rd
 55a9b30c9baf1a3c2d003803dbb2cea7 *tests/aardvark.Rin
 00889f201b6d774dbc783ce73a47af4a *tests/demo-graphics.R
