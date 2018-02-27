@@ -1,4 +1,4 @@
-cc0373103bd2b9ae8e6b06abf2549ebe *DESCRIPTION
+0ccf8e65ee9f5efa55a6c7eaad452ffb *DESCRIPTION
 60c06a9b535e0e5d08c631976688c81a *NAMESPACE
 cc9163b8296eba1758f88db5f267e75d *R/abline.R
 cda81d05dd571a2b67d96a40fc678783 *R/arrows.R
@@ -20,8 +20,8 @@ a5903fdda1a786a201b4f4a5f0f02550 *R/par.R
 a3fb3f8ec3648f511b46884865fd5ab6 *R/persp.R
 d6b596d6929e0b5d12fa17bd722f76f5 *R/plot.new.R
 2890e6fd83016f6ecb18936300dc29f3 *R/plot.window.R
-8aaaea94bcece177df9763a0aa0215e6 *R/plotXY.R
-c01c242c14731488bcaec1a51b053d57 *R/plotdiff.R
+c3051254460b41a80a41b0e6dd32ea80 *R/plotXY.R
+7737cf1412a84f9806d21a12525c10cf *R/plotdiff.R
 face413cc567e0f60ae872ae92ba6885 *R/polygon.R
 18a264abc9131e95c722aa7df675cd90 *R/raster.R
 90ad85850daeb29ee980ad4df9b6387d *R/rect.R
@@ -31,7 +31,7 @@ fcc928eea54d63726995560531b9d0b4 *R/segments.R
 b1843c7075f73e5ae04dd1753ad4d52d *R/title.R
 7a20f1336dec8a93948d836da0214964 *R/xspline.R
 0c9e9fb82dd83c800f058e0a7dd5c449 *README.md
-313512f315c380c104a23a2cc1ed1c80 *inst/NEWS.Rd
+a4f2dbd2e515ee74238233381b8abc9c *inst/NEWS.Rd
 d6b3d783da7b60edb2ea7855d9f4292d *inst/test-scripts/test-abline.R
 a293a6478fecb2656b47ec4bddf43da6 *inst/test-scripts/test-arrows.R
 ce6e737df1ac01eaa121427624b90419 *inst/test-scripts/test-assocplot.R
