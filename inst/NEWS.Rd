@@ -1,6 +1,38 @@
 \name{NEWS}
 \title{NEWS file for the gridGraphics package}
 \encoding{UTF-8}
+\section{Changes in version 0.4-0}{
+  \itemize{
+    \item New function \code{echoGrob()}.
+
+    \item Echoing \code{persp()} now respects \code{cex.axis} setting
+    (for size of tick labels).
+
+    \item Fixup for axis() when scale is reversed.
+
+    \item Fixes for \code{C_axis()} (and \code{GMtext()}) to use
+    \code{graphics::grconvertX()} (and \code{graphics::grconvertY}) to
+    calculate length
+    of tick marks and placement of tick labels.  This is to respond
+    correctly to \code{par()} changes AFTER \code{plot()}, but
+    before \code{axis()} (either via explicit \code{par()} calls,
+    or implicitly when functions like \code{dotchart()} reset
+    \code{par()} internally).
+
+    These changes make use of new \code{deviceLoc()} function
+    and updated \code{grconvertX()} and \code{grconvertY()} functions
+    in R 3.6.0.
+  }
+}
+\section{Changes in version 0.3-1}{
+  \itemize{
+    \item Improved \code{currentPar()} function so that it behaves more like
+    the graphics engine's \code{ProcessInlinePars()}.  The main point is that
+    setting a \code{par()} parameter in a high-level function is allowed to
+    specify multiple values for the setting (whereas setting via
+    \code{par()} itself only allows a single value per parameter setting).
+  }
+}
 \section{Changes in version 0.3-0}{
   \itemize{
     \item Added \pkg{magick} and \pkg{pdftools} as (Suggests)
