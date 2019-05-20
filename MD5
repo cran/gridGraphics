@@ -1,8 +1,8 @@
-9b790cd124a54ca6f173979615f442ce *DESCRIPTION
+168dc4dcb23dc0ebee06edadadb07217 *DESCRIPTION
 bfd4484fad6d19b4901b1ddb62091a32 *NAMESPACE
 cc9163b8296eba1758f88db5f267e75d *R/abline.R
 cda81d05dd571a2b67d96a40fc678783 *R/arrows.R
-241ba3e0c71980f85d672fda2edab264 *R/axis.R
+3afa88334f11c3154e5fd382cb5b6851 *R/axis.R
 8df6eee1a3a4cc5f196ef19981f7216b *R/box.R
 a0464cd853f4d166000572b7a27ded38 *R/clip.R
 5f1488d059e0473e25904f8918818af7 *R/contour.R
@@ -13,7 +13,7 @@ fb258db650115421528ce1550d8b9fac *R/graphics.R
 3a3c38c5b32e060788f7a9c6fe15151a *R/identify.R
 244fb60c148cf209666774f8bb07a8ee *R/image.R
 943c08451567e7e1b95aebfd4e8ece5c *R/layout.R
-d37162de9852732b2b8375a80c3f0cf1 *R/mtext.R
+ef644a37eca89bd9285a7bfa8091ed7f *R/mtext.R
 4b370b1ebd14667e39906a2812c0384d *R/palette.R
 c595006d188bb1a147218ef76e74de19 *R/par.R
 500b23c7a26d0c2375473ba3a8a4f2ba *R/path.R
@@ -37,7 +37,7 @@ a293a6478fecb2656b47ec4bddf43da6 *inst/test-scripts/test-arrows.R
 ce6e737df1ac01eaa121427624b90419 *inst/test-scripts/test-assocplot.R
 e524d0bb8be753687b5be2f3f324ec70 *inst/test-scripts/test-axTicks.R
 2ddd61fc9089a10d2a1e6868f53645b5 *inst/test-scripts/test-axis.POSIXct.R
-11858b61228163d5a405da123c6dd8ec *inst/test-scripts/test-axis.R
+18b7ca4c4fe47f1340c39b8b783f49e0 *inst/test-scripts/test-axis.R
 a6cf2f780b663d2e6928debdc781315b *inst/test-scripts/test-barplot.R
 4675e685d8e23430aa5083f36fd4640d *inst/test-scripts/test-box.R
 f0bec35e74c5caa5125185aad4049992 *inst/test-scripts/test-boxplot.R
