@@ -1,6 +1,35 @@
 \name{NEWS}
 \title{NEWS file for the gridGraphics package}
 \encoding{UTF-8}
+\section{Changes in version 0.5-0}{
+  \itemize{
+    \item \code{grid.echo()} now supports \code{stats::plot.hclust()}
+    
+    \item Fix for \code{grid.echo.function()} when start with
+    no devices open
+    (it was opening an extra device on exit).
+  }
+}
+\section{Changes in version 0.4-2}{
+  \itemize{
+    \item Protection against \code{NA} labels in text (so that they do not get
+    echoed as "NA").
+
+    NOTE that his will NOT be fixed in \pkg{grid} because some existing
+    packages relies on that \pkg{grid} behaviour.
+
+    \item Protection against \code{NULL} labels in text (so that
+    \pkg{grid} does not complain about them).
+
+    Reported by Patrick Schratz.
+  }
+}
+\section{Changes in version 0.4-1}{
+  \itemize{
+    \item Allow install on R below 3.6.0 (even if the echo results are
+    not as good)
+  }
+}
 \section{Changes in version 0.4-0}{
   \itemize{
     \item New function \code{echoGrob()}.
