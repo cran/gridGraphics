@@ -1,6 +1,13 @@
 \name{NEWS}
 \title{NEWS file for the gridGraphics package}
 \encoding{UTF-8}
+
+\section{Changes in version 0.5-1}{
+  \itemize{
+    \item Ensure use of Suggested packages is conditional (so
+    \code{plotdiff()} only runs if the Suggested packages are available).
+  }
+}
 \section{Changes in version 0.5-0}{
   \itemize{
     \item \code{grid.echo()} now supports \code{stats::plot.hclust()}
@@ -8,6 +15,9 @@
     \item Fix for \code{grid.echo.function()} when start with
     no devices open
     (it was opening an extra device on exit).
+
+    \item Ensure old \code{pdf(useDingbats=TRUE)} behaviour for
+    testing.
   }
 }
 \section{Changes in version 0.4-2}{
